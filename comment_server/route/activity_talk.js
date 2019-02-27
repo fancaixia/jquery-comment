@@ -42,7 +42,7 @@ let activity_reply = [
         content:"测试",   //回复内容
         fromID:"1",   //回复人ID
         toID:"1",     //回复目标人id
-        fromImg:'./images/reply_01.jpg',   //此数据应为前台传入
+        fromImg:'./images/reply_01.jpg',   //模拟查询用户表数据
         fromUser:"小迷糊",
         toUser:"小财神",
         time:"2017-07-06  12:45",
