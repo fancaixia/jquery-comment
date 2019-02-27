@@ -89,15 +89,12 @@ $('#talk_submit').on('click',function(){
       articleID:0,
       content:content
     };
-
     commonfun.request(serverApi.addTalk,data,addTalkfun,addTalkFail)
 
   }else{
     //提示层
     tipObj.setErrmsg('请输入评论内容',1);
-
   }
-
 })
 //添加评论成功
 function addTalkfun(data){
@@ -199,21 +196,20 @@ $('#talk_content').on('click','#talk_submit_s',function(){
     }
     commonfun.request(serverApi.addreply,data,replyfun,replyfail)
 
-    //回复发布成功
-    function replyfun(){
-      getTalkData();
-      $(this).parents('.talk_box_s').remove();
-    }
-    //回复发布失败
-    function replyfail(){
-      tipObj.setErrmsg('请求失败，请重试',1)
-    }
-
   }else{
     tipObj.setErrmsg('请输入评论内容',1);
   }
 
 })
+//回复发布成功
+function replyfun(){
+  getTalkData();
+  $(this).parents('.talk_box_s').remove();
+}
+//回复发布失败
+function replyfail(){
+  tipObj.setErrmsg('请求失败，请重试',1)
+}
 
 //回复发布  回车事件处理
 $('#talk_content').keypress('#textareaBox_s',function(e){ 
