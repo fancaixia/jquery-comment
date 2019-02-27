@@ -13,9 +13,8 @@ github项目地址：https://github.com/fancaixia/jquery-comment
 - 服务端代码运行一份即可
 
 ### node服务启动  
-(本项目涉及node服务--模拟数据库存储数据)
 
  1. npm / cnpm install 
  2. node app    ( 若启动项目失败，先删除node_modules   然后在install )
- 3. comment_static / config.js 为服务器地址及接口API配置
+
  
