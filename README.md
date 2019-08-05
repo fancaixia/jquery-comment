@@ -5,11 +5,12 @@ github项目地址：https://github.com/fancaixia/jquery-comment
 
 
 ![https://github.com/fancaixia/jquery-comment/blob/master/pic/001.png](https://github.com/fancaixia/jquery-comment/blob/master/pic/001.png)
-案例思路：
+<br/>
+### 案例思路：
 
-- 后台建立两个表:
--- (comment_list)评论表(id,userID,userName,articleID,content)  <br/>
--- (reply_list)回复表(id,talkID,content,fromID,fromUser,toID,toUser)  <br/>
+**[后台建立两个表]**
+- (comment_list)评论表(id,userID,userName,articleID,content)  <br/>
+- (reply_list)回复表(id,talkID,content,fromID,fromUser,toID,toUser)  <br/>
 
 **[查询评论]**
 - 后台获取 comment_list 表数据
