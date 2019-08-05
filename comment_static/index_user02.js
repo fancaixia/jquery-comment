@@ -1,9 +1,9 @@
 let replySize = 3;  //回复默认显示3条  当点击更多 则为评论相关回复total总数
 const replyCount = 3; //回复条数大于3  隐藏
-const currentUserID = '1549bd4753424d88a4f0d5839da33f96';  //当前登录用户   根据用户id判断评论或回复用户是否一致  同一人则可删除
-// const currentUserID = '25b92f4e04d54ca5a159b46309255f7e'; 
+// const currentUserID = '1549bd4753424d88a4f0d5839da33f96';  //当前登录用户id
+const currentUserID = '25b92f4e04d54ca5a159b46309255f7e'; 
 // const currentUserID = '2daa1633da3b44c3b37e35a9345a15ba'; 
-let currentUserName = '小财神';
+let currentUserName = '小迷糊';
 
 let replyUser = '';   //回复人XXX
 let replyUserID = '';  //回复人ID

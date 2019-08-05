@@ -4,7 +4,7 @@ const mysql=require('mysql');
 
 const activity_talk = require('./route/activity_talk')
 
-const pool=mysql.createPool({user:'xx',password:'xxx',port:'xxx',database:'xxx',host:'localhost'});
+const pool=mysql.createPool({user:'fcx',password:'123456',port:'3306',database:'ajk_data',host:'localhost'});
 
 const server=express();
 server.use(bodyParser.urlencoded({extended:false}))
