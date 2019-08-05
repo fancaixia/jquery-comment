@@ -40,7 +40,7 @@ github项目地址：https://github.com/fancaixia/jquery-comment
 ### 代码结构
 > comment_static 
 >> config.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 接口文档 <br/>
->> common.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 请求及提示信息 <br/>
+>> common.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 封装ajax请求及提示信息 <br/>
 >> index.html &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 主文件 <br/>
 >> index.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  业务逻辑 <br/>
 
