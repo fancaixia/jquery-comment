@@ -44,7 +44,7 @@ github项目地址：https://github.com/fancaixia/jquery-comment
 >> index.html &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 主文件 <br/>
 >> index.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  业务逻辑 <br/>
 
-##### 模拟多个用户可复制index文件，并修改index.js 中currentUserID和currentUserName
+##### 模拟多个用户可复制 comment_static / index.html，并修改index.js 中currentUserID和currentUserName
 
 > comment_mysql_server <br/>
 > app.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 主文件  连接mysql配置 <br/>
