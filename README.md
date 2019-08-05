@@ -40,16 +40,17 @@ github项目地址：https://github.com/fancaixia/jquery-comment
 
 ### 代码结构
 > comment_static 
->> config.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 接口文档
->> common.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 请求及提示信息
->> index.html &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 主文件
->> index.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  业务逻辑
-**~~模拟多个用户可复制index文件，并修改index.js 中currentUserID和currentUserName
+>> config.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 接口文档 <br/>
+>> common.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 请求及提示信息 <br/>
+>> index.html &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 主文件 <br/>
+>> index.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  业务逻辑 <br/>
 
-> comment_mysql_server 
-> app.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 主文件  连接mysql配置
-> route
->> activity_talk  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 后台逻辑处理
+##### 模拟多个用户可复制index文件，并修改index.js 中currentUserID和currentUserName
+
+> comment_mysql_server <br/>
+> app.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 主文件  连接mysql配置 <br/>
+> route <br/>
+>> activity_talk  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 后台逻辑处理  <br/>
 
 ### 项目启动  
 
