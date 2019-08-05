@@ -14,7 +14,7 @@ github项目地址：https://github.com/fancaixia/jquery-comment
 
 **[查询评论]**
 - 后台获取 comment_list 表数据
-- 检索 reply_list表中数据,talkID 为 comment_list
+- 检索reply_list表中item.talkID == comment_list中 item.id, 并存入comment_list中对应item.child
 
 **[发送评论]**
 - 前台发送用户id,用户名称, 文章id, 评论内容到后台
