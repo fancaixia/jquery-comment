@@ -54,9 +54,10 @@ github项目地址：https://github.com/fancaixia/jquery-comment
 
 ### 项目启动  
 
- 1. cd / comment_mysql_server(需连接数据库mysql)
- 2. npm / cnpm install 
- 3. npm run dev
+ 1. cd / comment_mysql_server
+ 2. app.js 更改数据库连接信息
+ 3. npm / cnpm install 
+ 4. npm run dev
 
 
 
