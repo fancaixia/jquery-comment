@@ -59,9 +59,6 @@ github项目地址：https://github.com/fancaixia/jquery-comment
  3. npm / cnpm install 
  4. npm run dev
 
-### 如果这篇文章对你有帮助，请帮忙扫描二维码，或微信搜索小程序(幼教学园)，帮忙点击页面，感谢
-![https://github.com/fancaixia/jquery-comment/blob/master/pic/youjiaoxueyuan.png](
-https://github.com/fancaixia/jquery-comment/blob/master/pic/youjiaoxueyuan.png)
 
 
  
